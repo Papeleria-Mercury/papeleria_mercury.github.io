@@ -1,5 +1,5 @@
 body{
-	background-image:url("../imagenes/fondo5.jpg");
+	background-image:url("../Imagenes/fondo5.jpg");
 	color:#FFFFFF;
 	font-family:Comfortaa, Roboto;
 	font-size:40px;
@@ -100,7 +100,7 @@ div#piediv{
 	div#principal{
 		width:100%;
 	/*background-color:#000000;*/
-	background-image:url("../imagenes/fondo5.jpg");
+	background-image:url("../Imagenes/fondo5.jpg");
 	}
 	div#productos{
 		width:40%;
@@ -115,17 +115,17 @@ div#piediv{
 	}
 	@font-face{
 		font-family:fuente;
-		src:url("../fonts/rock.ttf");
+		src:url("../Fonts/ROCK.TTF");
 		color:black;
 	}
 	@font-face{
 		font-family:letra;
-		src:url("../fonts/ka1.ttf");
+		src:url("../Fonts/ka1.ttf");
 		color: #000000;
 	}
 	@font-face{
 		font-family:letra2;
-		src:url("../fonts/fon.ttf");
+		src:url("../Fonts/fon.TTF");
 	}
 	.caja{
 		
