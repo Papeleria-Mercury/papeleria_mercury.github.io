@@ -1,0 +1,216 @@
+body{
+	background-image:url("../imagenes/fondo5.jpg");
+	color:#FFFFFF;
+	font-family:Comfortaa, Roboto;
+	font-size:40px;
+}
+
+p{
+	font-family:letra2;
+	text-align:justify;
+	font-size:30px;
+	color:#000000;
+}
+
+hr{
+	border: 3px solid #000000;
+	border-radius:5px;
+	width:100%;
+}
+
+table,tr,td{
+	
+	border:4px solid #000000;
+	background-color:#B6B6B6;
+	border-spacing:0px;
+	text-align:center;
+	font-size:25px;
+}
+ul{
+	font-family:letra2;
+	list-style-type:square;
+	list-style-position:inside;
+	text-align:justify;
+	color:black;
+}
+ol{
+	font-family:letra2;
+	list-style-type:upper-alpha;
+	list-style-position:inside;
+	text-align:justify;
+	color:black;
+}
+.pie{
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+}
+.titulos{
+	font-family:letra;
+	font-size:45px;
+	text-align:center;
+	color:#000000;
+	
+}
+.titulo-EX{
+	font-family:fuente;
+	font-size:50px;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+}
+.img-EX{
+	height:400px;
+	width:600px;
+}
+
+.img-controller{
+	height:50px;
+	width:50px;
+	/*este espacio sobro*/
+}
+.img-lite{
+	height:200px;
+	width:200px;
+}
+.img-press{
+	height:75px;
+	width:75px;
+}
+
+div#top{
+	padding:0px;
+	width:100%;
+	height:50px;
+	/*background-color:#000000;*/
+	background-image:linear-gradient(#000000,#EB2429);
+}
+
+div#piediv{
+	padding:40px;
+	width:100%;
+	height:100px;
+	/*background-color:#000000;*/
+	background-image:linear-gradient(#EB2429,#000000);}
+
+	*{
+		margin:0px;
+	}
+	
+	div#principal{
+		width:100%;
+	/*background-color:#000000;*/
+	background-image:url("../imagenes/fondo5.jpg");
+	}
+	div#productos{
+		width:40%;
+		text-align:left;
+		display:inline-block;
+		font-size:20px;
+		font-family:Roboto;
+		background:Grey;
+		color:black;
+		border:5px solid #000000;
+		
+	}
+	@font-face{
+		font-family:fuente;
+		src:url("../fonts/rock.ttf");
+		color:black;
+	}
+	@font-face{
+		font-family:letra;
+		src:url("../fonts/ka1.ttf");
+		color: #000000;
+	}
+	@font-face{
+		font-family:letra2;
+		src:url("../fonts/fon.ttf");
+	}
+	.caja{
+		
+		height:300px;
+		width:250px;
+		background:#000000;
+		border: 2px solid #EB2429;
+		margin: 5px;
+		color:white;
+		text-align:center;
+		display:inline-block;
+	}
+	.caja:hover{
+		box-shadow: 0 0 10px red;
+		transform:scale(1.3);
+	}
+	.caja-text{
+		font-family:letra2;
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:20px;
+		color:white;
+		font-weight:bold;
+	}
+	.texto-extra{
+		font-family:letra2;
+		padding-top:5px;
+		font-size:15px;
+	}
+	
+	.carrousel{
+		width:600px;
+		margin:auto;
+		box-sizing:border-box;
+	}
+	
+	.contecarrousel{
+		width:100%;
+		height:400px;
+		overflow:hidden;
+		box-sizing:border-box;
+	}
+	.itemcarrousel{
+		position:relative;
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	
+	.itemcarrouselcard{
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+		/*este espacio sobro*/
+	}
+	
+	.itemcarrouselarrows{
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		height:100%;
+		width:100%;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:20px;
+		box-sizing:border-box;
+	}
+	.itemcarrouselarrows>i:hover{
+		cursor:pointer;
+	}
+	.contecarrouselcontroller{
+		width:100%;
+		display:flex;
+		justify-content:space-evenly;
+	}
+	.contecarrouselcontroller>a{
+		text-decoration:none;
+		font-size:32px;
+		color:gray;
+	}
+	.itemcarrouseolarrows>a>i{
+		color:white;
+	}
+	
+	
